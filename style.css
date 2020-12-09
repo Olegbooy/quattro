@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_container{
+    width: 100%;
+    background: #fff;
+    height: 600px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.area{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.w1{
+    background: #000;
+    top: 50px;
+}
+
+.w2{
+    background-color: seagreen;
+    top: 373px;
+}
+
+.w3{
+    background-color: silver;
+    right: 528px;
+}
+
+.w4{
+    background: #659999;
+    left: 900px;
+    bottom: 105px;
+}
